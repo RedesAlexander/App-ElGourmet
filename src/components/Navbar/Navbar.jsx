@@ -123,7 +123,7 @@ function Navbar() {
             {/* LOGO CENTRADO */}
             <div className="logo logo-center">
               <Link to="/" onClick={() => { setOpen(false); setSearchOpen(false); setSidebarSearchOpen(false); }}>
-                <img src="/img/LOGO_NOCCIOLA.jpg" alt="Nocciola Logo" />
+                <img src="/img/LOGO_ELGOURMET.png" alt="ElGourmet Logo" />
               </Link>
             </div>
 
