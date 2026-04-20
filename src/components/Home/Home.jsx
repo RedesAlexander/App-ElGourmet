@@ -22,16 +22,10 @@ function Home() {
         <div className="home-hero-content">
           <div className="home-hero-text">
             <img
-              src="/img/nocciolaLogoBlanco.png"
-              alt="Nocciola Logo"
+              src="/img/LOGO_ELGOURMET.png"
+              alt="El Gourmet Logo"
               className="home-hero-logo"
             />
-            <div className="home-hero-description">
-              <p>
-                Almonds and Pistachio Creams - Plant-based drink.
-                Natural, nutritious and crazy delicious!
-              </p>
-            </div>
           </div>
         </div>
       </div>
@@ -39,20 +33,14 @@ function Home() {
       <div className="images-placeholder">
         <img
           onClick={() => navigate("/products")}
-          src="/img/home1.PNG"
-          alt="Nocciola Home 1"
+          src="/img/home_aceites.jpg"
+          alt="El Gourmet Home 1"
           className="home-gallery-img"
         />
         <img
           onClick={() => navigate("/products")}
-          src="/img/home2.PNG"
-          alt="Nocciola Home 2"
-          className="home-gallery-img"
-        />
-        <img
-          onClick={() => navigate("/products")}
-          src="/img/home3.PNG"
-          alt="Nocciola Home 3"
+          src="/img/home_conservas_pescado.jpg"
+          alt="El Gourmet Home 2"
           className="home-gallery-img"
         />
       </div>
