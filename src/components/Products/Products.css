@@ -1,0 +1,81 @@
+.products-section {
+  min-height: calc(100vh - 80px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #ffffff;
+  padding: 4rem 0;
+}
+
+.products-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+/*movil*/
+@media (max-width: 768px) {
+  .products-grid {
+    grid-template-columns: 1fr; /* 👈 una sola columna */
+  }
+}
+
+.product-card {
+  text-decoration: none;
+  color: inherit;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+}
+
+.product-card:hover {
+  transform: translateY(-10px);
+}
+
+.product-image-placeholder {
+  width: 100%;
+  aspect-ratio: 1;
+  background-color: #ffffff;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1.5rem;
+  border: 2px dashed #ddd;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.product-image-placeholder p {
+  color: #999;
+  font-size: 1.875rem;
+  font-weight: 600;
+  text-align: center;
+  padding: 1rem;
+}
+
+
+.product-protein {
+  display: block;
+  font-size: 0.875rem;
+  color: #E63946;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+}
+
+.product-title {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #E63946;
+  margin: 0 0 0.25rem 0;
+  letter-spacing: -0.5px;
+}
+
+.product-flavor {
+  font-size: 1rem;
+  color: #2b2b2b;
+  margin: 0;
+  font-weight: 400;
+}

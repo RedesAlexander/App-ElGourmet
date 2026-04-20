@@ -1,0 +1,232 @@
+.home-section {
+  background-color: #f5f5f5;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.home-hero-container {
+  background-image: url('/img/EstampadoLogoNocciola.jpg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  padding: 4rem 20px;
+  min-height: calc(100vh - 100px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-hero-content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+}
+
+.home-hero-text {
+  color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* --- LOGO --- */
+.home-hero-logo {
+  max-width: 850px;
+  width: 100%;
+  height: auto;
+  margin-bottom: 2.5rem;
+}
+
+/* --- TEXTO --- */
+.home-hero-description {
+  max-width: 700px;
+}
+
+.home-hero-description p {
+  font-size: 1.4rem;
+  line-height: 1.8;
+  margin-bottom: 1.5rem;
+  font-weight: 700;
+}
+
+/* --- IMÁGENES --- */
+.images-placeholder {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 3rem 20px;
+  gap: 30px;
+}
+
+.home-gallery-img {
+  max-width: 1050px;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.home-gallery-img:hover {
+  transform: scale(1.02);
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .home-hero-container {
+    padding: 3rem 15px;
+    min-height: calc(65vh - 70px);
+  }
+
+  .home-hero-logo {
+    max-width: 600px;
+    margin-bottom: 2rem;
+  }
+
+  .home-hero-description p {
+    font-size: 1.2rem;
+  }
+
+  .home-gallery-img {
+    max-width: 95%;
+  }
+}
+
+@media (max-width: 480px) {
+  .home-hero-container {
+    padding: 2rem 15px;
+  }
+
+  .home-hero-logo {
+    max-width: 400px;
+    margin-bottom: 1.5rem;
+  }
+
+  .home-hero-description p {
+    font-size: 1rem;
+  }
+
+ 
+}
+
+
+/* --- CONTENEDOR TIKTOK con VISOR --- */
+.home-tiktok-section {
+  text-align: center;
+  background-color: #ffffff;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+/* Título más moderno */
+.tiktok-title {
+  margin-bottom: 40px;
+  font-size: 2rem;
+  color: black;
+  font-weight: 800;
+  letter-spacing: 0.5px;
+}
+
+/* --- CARRUSEL HORIZONTAL --- */
+.tiktok-grid {
+  display: flex;
+  gap: 24px;
+  overflow-x: auto;
+  padding: 20px 10px 40px;
+  scroll-snap-type: x mandatory;
+  justify-content: flex-start;
+}
+
+/* Scroll suave */
+.tiktok-grid {
+  scroll-behavior: smooth;
+}
+
+/* Ocultar scrollbar (opcional más limpio) */
+.tiktok-grid::-webkit-scrollbar {
+  height: 6px;
+}
+.tiktok-grid::-webkit-scrollbar-thumb {
+  background: #e0a4a4;
+  border-radius: 10px;
+}
+
+/* --- CARD DE VIDEO --- */
+.tiktok-wrapper {
+  flex: 0 0 auto;
+  width: 300px;
+  height: 540px;
+  border-radius: 18px;
+  overflow: hidden;
+  background: #000;
+
+  scroll-snap-align: center;
+
+  /* sombra elegante */
+  box-shadow: 
+    0 10px 25px rgba(0, 0, 0, 0.15),
+    0 5px 10px rgba(0, 0, 0, 0.08);
+
+  transition: all 0.35s ease;
+}
+
+/* Hover efecto tipo “card elevada” */
+.tiktok-wrapper:hover {
+  transform: translateY(-8px) scale(1.03);
+  box-shadow: 
+    0 20px 40px rgba(0, 0, 0, 0.2),
+    0 10px 20px rgba(0, 0, 0, 0.12);
+}
+
+/* Iframe más suave */
+.tiktok-wrapper iframe {
+  border-radius: 18px;
+}
+
+/* --- EFECTO DE DESENFOQUE LATERAL (opcional PRO) --- */
+.tiktok-grid::before,
+.tiktok-grid::after {
+  content: "";
+  position: sticky;
+  top: 0;
+  width: 60px;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+}
+
+.tiktok-grid::before {
+  left: 0;
+  background: linear-gradient(to right, #fff1f1, transparent);
+}
+
+.tiktok-grid::after {
+  right: 0;
+  background: linear-gradient(to left, #ffffff, transparent);
+}
+
+/* --- RESPONSIVE --- */
+@media (max-width: 768px) {
+  .tiktok-wrapper {
+    width: 260px;
+    height: 480px;
+  }
+
+  .tiktok-title {
+    font-size: 1.6rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .tiktok-wrapper {
+    width: 220px;
+    height: 420px;
+  }
+}

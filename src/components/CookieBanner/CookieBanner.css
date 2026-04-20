@@ -1,0 +1,142 @@
+/* ===== COOKIE BANNER ===== */
+
+.cookie-banner {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%) translateY(120%);
+  width: 100%;
+  max-width: 720px;
+  padding: 0 1rem;
+  z-index: 2000;
+
+  transition: transform 0.35s cubic-bezier(0.2, 0.9, 0.2, 1),
+              opacity 0.3s ease;
+
+  opacity: 0;
+  pointer-events: none;
+}
+
+.cookie-banner.visible {
+  transform: translateX(-50%) translateY(0);
+  opacity: 1;
+  pointer-events: auto;
+}
+
+/* Contenedor tipo card (igual filosofía que search-form) */
+.cookie-content {
+  background: #ffffff;
+  border-radius: 14px;
+  padding: 1.2rem 1.4rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.12);
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+/* Texto */
+.cookie-text {
+  flex: 1;
+  font-size: 0.9rem;
+  color: #2b2b2b;
+  line-height: 1.4;
+  margin: 0;
+}
+
+/* Link (como nav hover) */
+.cookie-link {
+  color: #e63946;
+  font-weight: 600;
+  text-decoration: none;
+  position: relative;
+}
+
+.cookie-link::after {
+  content: "";
+  position: absolute;
+  bottom: -2px;
+  left: 0;
+  width: 0;
+  height: 2px;
+  background: #e63946;
+  transition: width 0.25s ease;
+}
+
+.cookie-link:hover::after {
+  width: 100%;
+}
+
+/* Acciones */
+.cookie-actions {
+  display: flex;
+  gap: 0.5rem;
+  flex-shrink: 0;
+}
+
+/* Botones base */
+.cookie-btn {
+  border: none;
+  border-radius: 8px;
+  padding: 8px 14px;
+  font-size: 0.85rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+/* Botón secundario (rechazar) */
+.cookie-btn--secondary {
+  background: transparent;
+  color: #2b2b2b;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+}
+
+.cookie-btn--secondary:hover {
+  background: rgba(0, 0, 0, 0.05);
+}
+
+/* Botón principal (aceptar) */
+.cookie-btn--primary {
+  background: #e63946;
+  color: #ffffff;
+}
+
+.cookie-btn--primary:hover {
+  background: #d62839;
+}
+
+/* ===== RESPONSIVE ===== */
+
+@media (max-width: 768px) {
+  .cookie-content {
+    flex-direction: column;
+    align-items: stretch;
+    text-align: center;
+  }
+
+  .cookie-actions {
+    justify-content: center;
+    width: 100%;
+  }
+
+  .cookie-btn {
+    flex: 1;
+  }
+}
+
+@media (max-width: 480px) {
+  .cookie-banner {
+    bottom: 10px;
+  }
+
+  .cookie-content {
+    padding: 1rem;
+  }
+
+  .cookie-text {
+    font-size: 0.85rem;
+  }
+}

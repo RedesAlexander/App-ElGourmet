@@ -1,0 +1,135 @@
+/* --- CONTENEDOR PRINCIPAL --- */
+.where-to-buy {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 50px 20px 0px 20px;
+  background-color: #ffffff;
+}
+
+/* --- SELECTOR DE REGIÓN --- */
+.region-selector-container {
+  align-self: flex-start; /* Mueve el bloque arriba a la izquierda */
+  display: flex;
+  align-items: center; /* Centra el texto y la caja verticalmente */
+  gap: 12px; /* Añade espacio entre la palabra "Region:" y el selector */
+  margin-bottom: 40px;
+  padding-left: 5%; /* Un pequeño margen para que no se pegue al borde absoluto de la pantalla */
+}
+
+.region-selector-container label {
+  display: block;
+  font-weight: 700;
+  color: #333333;
+  font-size: 1rem;
+}
+
+.region-dropdown {
+  color: #a32a22;
+  font-family: inherit;
+  font-weight: 700;
+  font-size: 0.9rem; /* Tamaño de tipografía reducido */
+  background-color: #ffffff;
+  padding: 8px 16px; /* Caja más estrecha y proporcionada */
+  border: 1px solid #e8e8e8;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.05); /* Sombra un poco más sutil */
+  cursor: pointer;
+  outline: none;
+}
+
+/* --- CONTENEDOR DE TARJETAS --- */
+.where-to-buy-cards {
+  display: flex;
+  gap: 50px;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 3rem
+}
+
+/* --- TARJETAS --- */
+.where-to-buy-card {
+  width: 420px; /* Aumentado de 380px a 420px */
+  border-radius: 8px;
+  display: flex;
+  flex-direction: column;
+}
+
+/* Fondos superiores de las tarjetas*/
+.where-to-buy-top {
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  margin-bottom: -20px;
+}
+
+.bg-pistachio {
+  background-color: #ffffff;
+}
+
+.bg-almond {
+  background-color: #ffffff;
+}
+
+.where-to-buy-image {
+  max-width: 100%;
+  height: auto;
+  object-fit: contain;
+  transform: scale(1.35);
+  margin-top: -30px;
+}
+
+/* --- PARTE INFERIOR DE LAS TARJETAS --- */
+.where-to-buy-bottom {
+  background-color: #ffffff;
+  padding: 5px 20px;
+  display: flex;
+  flex-direction: column; /* Apila el nombre y el botón verticalmente */
+  align-items: center;    /* Centra ambos elementos horizontalmente */
+  justify-content: center;
+  gap: 15px;              /* Crea un espacio limpio entre el bloque de textos y el botón */
+}
+
+.where-to-buy-titles {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2px; /* Espacio mínimo entre el título principal y el porcentaje */
+}
+
+.where-to-buy-name {
+  font-weight: 700;
+  color: #333333;
+  font-size: 1.6rem;
+  text-align: center;
+  z-index: 1; /* Asegura que el texto se quede por encima si se cruza con la transparencia de la imagen */
+}
+
+.where-to-buy-percent {
+  font-weight: 600;
+  color: #666666;
+  font-size: 1.1rem;
+  text-align: center;
+  z-index: 1; /* Asegura que el texto se quede por encima */
+}
+
+/* Botón de compra */
+.where-to-buy-btn {
+  background-color: #e13b2b;
+  color: #ffffff;
+  border: none;
+  padding: 12px 30px;
+  border-radius: 4px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: opacity 0.2s ease;
+  min-width: 150px;
+  z-index: 1; /* Asegura que el botón sea clickeable y no quede oculto por el PNG invisible */
+}
+
+.where-to-buy-btn:hover {
+  opacity: 0.85;
+}

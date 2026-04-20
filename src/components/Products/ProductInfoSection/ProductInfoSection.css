@@ -1,0 +1,93 @@
+.product-modern {
+  width: 100%;
+  min-height: 100vh;
+  background-color: #ffffff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px 20px;
+}
+
+/* CONTENEDOR */
+.product-modern__container {
+  width: 100%;
+  max-width: 1200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+/* IZQUIERDA */
+.product-modern__left {
+  width: 45%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* IMAGEN */
+.product-modern__image {
+  width: 100%;
+  max-width: 500px;
+  object-fit: contain;
+  transform: scale(1.5);
+}
+
+/* DERECHA */
+.product-modern__right {
+  width: 60%;
+  color: #2f2f2f; /* 👈 tu color original */
+}
+
+/* TÍTULO */
+.product-modern__right h1 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #32465a; /* 👈 el azul/gris que ya usabas */
+}
+
+/* DESCRIPCIÓN */
+.product-modern__description {
+  font-size: 1.2rem;
+  line-height: 1.6;
+  margin-bottom: 25px;
+  color: #4a4a4a;
+}
+
+/* BLOQUES */
+.product-modern__block {
+ padding: 5px;
+}
+
+.product-modern__block h3 {
+  font-size: 1.2rem;
+  margin-bottom: 8px;
+  color: #2f2f2f;
+}
+
+.product-modern__block p {
+  font-size: 1rem;
+  line-height: 1.5;
+  color: #4a4a4a;
+}
+
+
+
+/* RESPONSIVE */
+@media (max-width: 768px) {
+  .product-modern__container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .product-modern__left,
+  .product-modern__right {
+    width: 100%;
+  }
+
+  .product-modern__right h1 {
+    font-size: 1.5rem;
+  }
+}
