@@ -26,7 +26,7 @@
 }
 
 .region-dropdown {
-  color: #a32a22;
+  color: #333333;
   font-family: inherit;
   font-weight: 700;
   font-size: 0.9rem; /* Tamaño de tipografía reducido */
@@ -42,7 +42,7 @@
 /* --- CONTENEDOR DE TARJETAS --- */
 .where-to-buy-cards {
   display: flex;
-  gap: 50px;
+  gap: 90px;
   flex-wrap: wrap;
   justify-content: center;
   margin-bottom: 3rem
@@ -66,11 +66,11 @@
   margin-bottom: -20px;
 }
 
-.bg-pistachio {
+.bg-canned-fish {
   background-color: #ffffff;
 }
 
-.bg-almond {
+.bg-olive-oil {
   background-color: #ffffff;
 }
 
@@ -118,7 +118,7 @@
 
 /* Botón de compra */
 .where-to-buy-btn {
-  background-color: #e13b2b;
+  background-color: #2b2b2b;
   color: #ffffff;
   border: none;
   padding: 12px 30px;
