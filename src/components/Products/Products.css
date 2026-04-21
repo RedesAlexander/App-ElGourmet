@@ -95,7 +95,7 @@
 .product-protein {
   display: block;
   font-size: 0.875rem;
-  color: #E63946;
+  color: #555555;
   font-weight: 600;
   margin-bottom: 0.5rem;
 }
@@ -103,7 +103,7 @@
 .product-title {
   font-size: 2rem;
   font-weight: 700;
-  color: #E63946;
+  color: #555555;
   margin: 0 0 0.25rem 0;
   letter-spacing: -0.5px;
 }

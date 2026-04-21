@@ -236,7 +236,7 @@ function Navbar() {
         </nav>
 
         <div className="sidebar-footer">
-          <small>© Nocciola</small>
+          <small>© El Gourmet</small>
         </div>
       </aside>
     </>

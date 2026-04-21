@@ -95,7 +95,7 @@ body {
   left: 0;
   width: 0;
   height: 2px;
-  background-color: #e63946;
+  background-color: #555555;
   transition: width 0.25s ease;
 }
 
@@ -106,7 +106,7 @@ body {
 
 .nav-link:hover,
 .nav-link.active {
-  color: #e63946;
+  color: #555555;
 }
 
 /* ===== LOGO CENTRADO ===== */
@@ -203,8 +203,8 @@ body {
 }
 
 .nav-link--icon:hover {
-  background: rgba(230, 57, 70, 0.06);
-  border-color: rgba(230, 57, 70, 0.12);
+  background: rgba(80, 80, 80, 0.06);
+  border-color: rgba(80, 80, 80, 0.12);
 }
 
 .search-form {
@@ -242,11 +242,11 @@ body {
 
 .search-input:focus {
   outline: none;
-  border-color: #e63946;
+  border-color: #555555;
 }
 
 .search-submit {
-  background: #e63946;
+  background: #555555;
   color: #fff;
   border: 0;
   padding: 8px 16px;
@@ -257,7 +257,7 @@ body {
 }
 
 .search-submit:hover {
-  background: #d62839;
+  background: #333333;
 }
 
 /* ===== OVERLAY ===== */
@@ -342,7 +342,7 @@ body {
 }
 
 .sidebar-close:hover {
-  color: #e63946;
+  color: #555555;
 }
 
 /* Sidebar Search */
@@ -368,9 +368,9 @@ body {
 }
 
 .sidebar-lupa:hover {
-  background: rgba(230, 57, 70, 0.06);
-  border-color: rgba(230, 57, 70, 0.12);
-  color: #e63946;
+  background: rgba(80, 80, 80, 0.06);
+  border-color: rgba(80, 80, 80, 0.12);
+  color: #555555;
 }
 
 .sidebar-search-form {
@@ -419,7 +419,7 @@ body {
 }
 
 .sidebar-list a:hover {
-  color: #e63946;
+  color: #555555;
   padding-left: 0.5rem;
 }
 
