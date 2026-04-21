@@ -11,7 +11,7 @@
 
 .legal-content h1 {
   font-size: 2.5rem;
-  color: #E63946;
+  color: #555555;
   margin-bottom: 2rem;
   font-weight: 700;
 }
@@ -37,7 +37,7 @@
 
 .legal-text h2 {
   font-size: 1.5rem;
-  color: #E63946;
+  color: #555555;
   margin-top: 2.5rem; 
   margin-bottom: 1.2rem;
   font-weight: 700;
@@ -56,7 +56,7 @@
 }
 
 .legal-text strong {
-  color: #E63946;
+  color: #555555;
 }
 
 .last-updated {
@@ -68,7 +68,7 @@
 .legal-footer {
   margin-top: 4rem;
   padding-top: 2rem;
-  border-top: 2px solid #E63946;
+  border-top: 2px solid #555555;
   font-size: 0.9rem;
   color: #999;
   text-align: center;
@@ -77,6 +77,6 @@
 .contact-note {
   background: #f9f9f9;
   padding: 1.5rem;
-  border-left: 4px solid #E63946;
+  border-left: 4px solid #555555;
   margin-top: 2rem;
 }

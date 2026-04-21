@@ -1,6 +1,6 @@
 .footer {
-  background-color: #e13b2b;
-  color: #ffffff;
+  background-color: #dad7d7;
+  color: black;
   padding: 2rem 0;
   width: 100%;
   overflow-x: hidden; /* Evita scroll horizontal */
@@ -24,7 +24,7 @@
 
 /* Logo del footer */
 .footer-logo img {
-  height: 40px;
+  height: 80px;
   width: auto;
   display: block;
 }
@@ -38,7 +38,7 @@
 }
 
 .footer-links a {
-  color: #ffffff;
+  color: black;
   transition: opacity 0.3s ease;
   text-decoration: none;
   white-space: nowrap; /* Evita que los links se rompan */
@@ -60,7 +60,7 @@
 }
 
 .footer-social a {
-  color: #ffffff;
+  color: black;
   width: 32px;
   height: 32px;
   display: flex;

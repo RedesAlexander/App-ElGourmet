@@ -25,7 +25,7 @@ function TermsAndConditions() {
 
             <h2>2. Use of the Site</h2>
             <p>
-              You may use the information available on the <strong>NOCCIOLA.ES</strong> website solely for 
+              You may use the information available on the <strong>SUPER-MARKET-GOURMET.COM</strong> website solely for 
               personal purposes. Any commercial use (such as reproduction) requires prior written 
               authorization and a signed agreement.
             </p>
@@ -42,7 +42,7 @@ function TermsAndConditions() {
             <h2>3. Intellectual and Industrial Property Rights</h2>
             <p>
               All logos, trademarks, and trade names displayed on the Website are the property of 
-              <strong> NOCCIOLA.ES</strong>. 
+              <strong> SUPER-MARKET-GOURMET.COM</strong>. 
             </p>
             <p>
               Articles, information, and other materials are protected by industrial and intellectual property laws. 
@@ -52,7 +52,7 @@ function TermsAndConditions() {
 
             <h2>4. Links to Third-Party Websites</h2>
             <p>
-              The Website may contain links to third-party sites. <strong>NOCCIOLA.ES</strong> is not 
+              The Website may contain links to third-party sites. <strong>SUPER-MARKET-GOURMET.COM</strong> is not 
               responsible for the content found on such sites. Use of these links is solely at the user's 
               risk.
             </p>

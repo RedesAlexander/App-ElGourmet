@@ -48,7 +48,7 @@
 
 /* Link (como nav hover) */
 .cookie-link {
-  color: #e63946;
+  color: #555555;
   font-weight: 600;
   text-decoration: none;
   position: relative;
@@ -61,7 +61,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: #e63946;
+  background: #555555;
   transition: width 0.25s ease;
 }
 
@@ -100,12 +100,12 @@
 
 /* Botón principal (aceptar) */
 .cookie-btn--primary {
-  background: #e63946;
+  background: #555555;
   color: #ffffff;
 }
 
 .cookie-btn--primary:hover {
-  background: #d62839;
+  background: #333333;
 }
 
 /* ===== RESPONSIVE ===== */

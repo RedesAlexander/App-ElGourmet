@@ -20,8 +20,8 @@ function PrivacyPolicy() {
 
             <p><strong>Data Protection Officer (DPO):</strong></p>
             <ul>
-              <li><strong>Email:</strong> DPO@nocciola.es</li>
-              <li><strong>Website:</strong> www.nocciola.es</li>
+              <li><strong>Email:</strong> DPO@elgourmet.es</li>
+              <li><strong>Website:</strong> www.super-market-gourmet.com</li>
             </ul>
 
             <h2>II. PURPOSE AND CATEGORIES OF DATA</h2>
