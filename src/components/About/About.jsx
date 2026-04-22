@@ -21,11 +21,11 @@ function About() {
 
       <div className="about-images-placeholder">
         <img
-          src="/img/About1.png"
+          src="/img/OliveOil.jpg"
           alt="El Gourmet Lifestyle 1"
         />
         <img
-          src="/img/About2.png"
+          src="/img/Bonito_Front.png"
           alt="El Gourmet Lifestyle 2"
         />
       </div>
