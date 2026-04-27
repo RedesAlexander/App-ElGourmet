@@ -20,8 +20,8 @@ function PrivacyPolicy() {
 
             <p><strong>Data Protection Officer (DPO):</strong></p>
             <ul>
-              <li><strong>Email:</strong> DPO@elgourmet.es</li>
-              <li><strong>Website:</strong> www.super-market-gourmet.com</li>
+              <li><strong>Email:</strong> DPO@Elgourmet-es.com</li>
+              <li><strong>Website:</strong> www.elgourmet-es.com</li>
             </ul>
 
             <h2>II. PURPOSE AND CATEGORIES OF DATA</h2>
@@ -82,7 +82,7 @@ function PrivacyPolicy() {
 
             <p className="contact-note">
               To exercise these rights, contact our Legal Department at the registered address or via
-              <a href="https://super-market-gourmet.com"> our online form</a>.
+              <a href="https://www.elgourmet-es.com"> our online form</a>.
             </p>
 
             <footer className="legal-footer">
