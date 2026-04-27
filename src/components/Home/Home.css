@@ -7,7 +7,7 @@
 }
 
 .home-hero-container {
-
+  background-image: url("/img/PortadaConservas.jpg"); /* ← AÑADIDO */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -112,10 +112,7 @@
   .home-hero-description p {
     font-size: 1rem;
   }
-
- 
 }
-
 
 /* --- CONTENEDOR TIKTOK con VISOR --- */
 .home-tiktok-section {
@@ -149,7 +146,7 @@
   scroll-behavior: smooth;
 }
 
-/* Ocultar scrollbar (opcional más limpio) */
+/* Ocultar scrollbar */
 .tiktok-grid::-webkit-scrollbar {
   height: 6px;
 }
@@ -169,7 +166,6 @@
 
   scroll-snap-align: center;
 
-  /* sombra elegante */
   box-shadow: 
     0 10px 25px rgba(0, 0, 0, 0.15),
     0 5px 10px rgba(0, 0, 0, 0.08);
@@ -177,7 +173,6 @@
   transition: all 0.35s ease;
 }
 
-/* Hover efecto tipo “card elevada” */
 .tiktok-wrapper:hover {
   transform: translateY(-8px) scale(1.03);
   box-shadow: 
@@ -185,12 +180,11 @@
     0 10px 20px rgba(0, 0, 0, 0.12);
 }
 
-/* Iframe más suave */
 .tiktok-wrapper iframe {
   border-radius: 18px;
 }
 
-/* --- EFECTO DE DESENFOQUE LATERAL (opcional PRO) --- */
+/* --- EFECTO DE DESENFOQUE LATERAL --- */
 .tiktok-grid::before,
 .tiktok-grid::after {
   content: "";

@@ -18,18 +18,16 @@ function Home() {
   return (
     <section id="home" className="home-section">
 
+      {/* HERO con la portada */}
       <div className="home-hero-container">
         <div className="home-hero-content">
           <div className="home-hero-text">
-            <img
-              src="/img/LOGO_ELGOURMET.png"
-              alt="El Gourmet Logo"
-              className="home-hero-logo"
-            />
+            {/* LOGO ELIMINADO PARA QUE NO SE VEA ENCIMA */}
           </div>
         </div>
       </div>
 
+      {/* GALERÍA */}
       <div className="images-placeholder">
         <img
           onClick={() => navigate("/products")}
@@ -45,8 +43,8 @@ function Home() {
         />
       </div>
 
-      {/* seccion Videos de TikTok con Visor Rojo */}
-<div className="home-tiktok-section">
+      {/* TIKTOK */}
+      <div className="home-tiktok-section">
         <h2 className="tiktok-title">Follow us on TikTok</h2>
         <div className="tiktok-grid">
           {tiktokVideoIds.map((id) => (
@@ -58,9 +56,11 @@ function Home() {
                 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
                 allowFullScreen
               />
-            </div>          ))}
+            </div>
+          ))}
         </div>
       </div>
+
     </section>
   );
 }
