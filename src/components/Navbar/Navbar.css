@@ -125,10 +125,10 @@ body {
 }
 
 .logo-center img {
-  height: 85px;
+  height: 105px;
   width: auto;
   display: block;
-  margin-top: 1.2rem;
+  margin-top: -5px;
 }
 
 @media (max-width: 768px) {
