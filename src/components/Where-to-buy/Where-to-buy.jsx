@@ -44,9 +44,9 @@ function WhereToBuy() {
 
         {/* Tarjeta 1: CANNED FISH */}
         <div className="where-to-buy-card">
-          <div className="where-to-buy-top bg-canned-fish">
+          <div className="where-to-buy-top">
             <img
-              src="/img/canned-tunaRojo.jpeg"
+              src="/img/ConjuntoLatas.jpg"
               alt="Canned Fish"
               className="where-to-buy-image"
             />
@@ -67,9 +67,9 @@ function WhereToBuy() {
 
         {/* Tarjeta 2: OLIVE OIL */}
         <div className="where-to-buy-card">
-          <div className="where-to-buy-top bg-olive-oil">
+          <div className="where-to-buy-top">
             <img
-              src="/img/ProductOlive.jpg"
+              src="/img/TodasLasLatas.jpg"
               alt="Olive Oil"
               className="where-to-buy-image"
             />

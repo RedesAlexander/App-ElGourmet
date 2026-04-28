@@ -1,0 +1,34 @@
+.search-results-section {
+  min-height: calc(100vh - 80px);
+  background-color: #ffffff;
+  padding: 4rem 0;
+}
+
+.search-results-label {
+  text-align: center;
+  font-size: 1rem;
+  color: #666666;
+  margin-bottom: 2.5rem;
+}
+
+.search-results-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.search-results-empty {
+  text-align: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+  color: #999999;
+  margin-top: 4rem;
+}
+
+@media (max-width: 768px) {
+  .search-results-grid {
+    grid-template-columns: 1fr;
+  }
+}

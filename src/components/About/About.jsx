@@ -8,12 +8,12 @@ function About() {
         <div className="about-hero-content">
           <div className="about-hero-text">
             <img
-              src="/img/LOGO_ELGOURMET.png"
+              src="/img/PortadaConservas.jpg"
               alt="El Gourmet Logo"
               className="about-hero-logo"
             />
             <div className="about-hero-description">
-              <p>Aceites Premium y conservas de pescado.</p>
+              <p>Aceites premium & conservas de pescado.</p>
             </div>
           </div>
         </div>
@@ -21,11 +21,11 @@ function About() {
 
       <div className="about-images-placeholder">
         <img
-          src="/img/OliveOil.jpg"
+          src="/img/OurOliveOils.jpg"
           alt="El Gourmet Lifestyle 1"
         />
         <img
-          src="/img/Bonito_Front.png"
+          src="/img/ConjuntoLatas.jpg"
           alt="El Gourmet Lifestyle 2"
         />
       </div>

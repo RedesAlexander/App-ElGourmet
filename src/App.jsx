@@ -10,6 +10,7 @@ import Recipes from './components/Recipes/Recipes';
 import TermsAndConditions from './components/TermsAndConditions/TermsAndConditions'
 import PrivacyPolicy from './components/PrivacyPolicy/PrivacyPolicy'
 import CookieBanner from './components/CookieBanner/CookieBanner';
+import SearchResults from './components/SearchResults/SearchResults';
 
 import './App.css';
 import ProductInfoSection from './components/Products/ProductInfoSection/ProductInfoSection';
@@ -30,6 +31,7 @@ function App() {
           <Route path="/recipes" element={<Recipes />} />
           <Route path="/terms" element={<TermsAndConditions />} />
           <Route path="/privacy" element={<PrivacyPolicy />} />
+          <Route path="/search" element={<SearchResults />} />
         </Routes>
       </main>
 
