@@ -30,13 +30,13 @@ function Home() {
       <div className="images-placeholder">
         <img
           onClick={() => navigate("/products")}
-          src="/img/home_aceites.jpg"
+          src="/img/home_aceites.png"
           alt="El Gourmet Home 1"
           className="home-gallery-img"
         />
         <img
           onClick={() => navigate("/products")}
-          src="/img/home_conservas_pescado.jpg"
+          src="/img/home_conservas_pescado.png"
           alt="El Gourmet Home 2"
           className="home-gallery-img"
         />
