@@ -50,7 +50,7 @@
 
 /* --- TARJETAS --- */
 .where-to-buy-card {
-  width: 420px; /* Aumentado de 380px a 420px */
+  width: 420px; 
   border-radius: 8px;
   display: flex;
   flex-direction: column;
@@ -59,28 +59,25 @@
 /* Fondos superiores de las tarjetas*/
 .where-to-buy-top {
   height: 300px;
+  position: relative;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 20px;
-  margin-bottom: -20px;
-}
-
-.bg-canned-fish {
   background-color: #ffffff;
 }
 
-.bg-olive-oil {
-  background-color: #ffffff;
-  margin-bottom: 2rem;
+.where-to-buy-top::after {
+  content: '';
+  position: absolute;
+  inset: 0;
+  pointer-events: none;
 }
 
 .where-to-buy-image {
-  max-width: 100%;
-  height: auto;
+  width: 100%;
+  height: 90%;
   object-fit: contain;
-  transform: scale(1.35);
-  margin-top: -30px;
 }
 
 /* --- PARTE INFERIOR DE LAS TARJETAS --- */

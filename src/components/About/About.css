@@ -44,12 +44,13 @@
 /* --- TEXTO --- */
 .about-hero-description {
   max-width: 700px;
+  color: black;
+  font-style: italic;
 }
 
 .about-hero-description p {
-  font-size: 1.4rem;
+  font-size: 1.8rem;
   line-height: 1.8;
-  margin-bottom: 1.5rem;
   font-weight: 700;
 }
 
