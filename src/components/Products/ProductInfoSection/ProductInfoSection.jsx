@@ -39,13 +39,21 @@ function ProductInfoSection() {
             <p>{product.ingredients}</p>
           </div>
 
+          {product.format?.length > 0 && (
+            <div className="product-modern__block">
+              <h3>Format</h3>
+              <ul className="product-modern__format-list">
+                {product.format.map((item, index) => (
+                  <li key={index}>{item}</li>
+                ))}
+              </ul>
+            </div>
+          )}
+
           <div className="product-modern__block">
             <h3>Allergens</h3>
             <p>{product.allergens}</p>
           </div>
-
-         
-         
         </div>
 
       </div>
