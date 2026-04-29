@@ -6,9 +6,6 @@ function Footer() {
     <footer className="footer">
       <div className="container">
         <div className="footer-content">
-          <div className="footer-logo">
-            <img src="/img/LOGO_ELGOURMET.png" alt="El Gourmet Logo" />
-          </div>
 
           <div className="footer-links">
             <Link to="/terms">Terms and Conditions</Link>
