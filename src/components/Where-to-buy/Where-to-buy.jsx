@@ -3,14 +3,14 @@ import "./Where-to-buy.css";
 
 const productLinks = {
   "canned-fish": {
-    EU: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=EL+GOURMET+PROFESIONAL",
-    USA: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=EL+GOURMET+PROFESIONAL",
-    UK: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=EL+GOURMET+PROFESIONAL"
+    EU: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=EL+GOURMET+PROFESIONAL&subcategoria=CONSERVAS+DE+PESCADO",
+    USA: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=EL+GOURMET+PROFESIONAL&subcategoria=CONSERVAS+DE+PESCADO",
+    UK: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=EL+GOURMET+PROFESIONAL&subcategoria=CONSERVAS+DE+PESCADO"
   },
   "olive-oil": {
-    EU: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=EL+GOURMET+PROFESIONAL",
-    USA: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=EL+GOURMET+PROFESIONAL",
-    UK: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=EL+GOURMET+PROFESIONAL"
+    EU: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=ACEITES",
+    USA: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=ACEITES",
+    UK: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=ACEITES"
   }
 };
 
