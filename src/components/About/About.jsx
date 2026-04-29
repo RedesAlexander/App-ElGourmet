@@ -12,9 +12,6 @@ function About() {
               alt="El Gourmet Logo"
               className="about-hero-logo"
             />
-            <div className="about-hero-description">
-              <p>Aceites premium & conservas de pescado.</p>
-            </div>
           </div>
         </div>
       </div>
