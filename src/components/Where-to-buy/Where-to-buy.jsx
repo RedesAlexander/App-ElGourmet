@@ -3,14 +3,14 @@ import "./Where-to-buy.css";
 
 const productLinks = {
   "canned-fish": {
-    EU: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=EL+GOURMET+PROFESIONAL&subcategoria=CONSERVAS+DE+PESCADO",
-    USA: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=EL+GOURMET+PROFESIONAL&subcategoria=CONSERVAS+DE+PESCADO",
-    UK: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=EL+GOURMET+PROFESIONAL&subcategoria=CONSERVAS+DE+PESCADO"
+    EU: "https://super-market-gourmet.com/profesional/conservas-de-pescado",
+    USA: "https://super-market-gourmet.com/us/profesional/conservas-de-pescado",
+    UK: ""
   },
   "olive-oil": {
-    EU: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=ACEITES",
-    USA: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=ACEITES",
-    UK: "https://super-market-gourmet.com/Supermercado_Practica/public/busqueda.php?buscar=ACEITES"
+    EU: "https://super-market-gourmet.com/aceites",
+    USA: "https://super-market-gourmet.com/us/aceites",
+    UK: ""
   }
 };
 
@@ -36,7 +36,7 @@ function WhereToBuy() {
         >
           <option value="EU">EU</option>
           <option value="USA">USA</option>
-          <option value="UK">UK</option>
+          {/* <option value="UK">UK</option> */}
         </select>
       </div>
 
